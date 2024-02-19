@@ -1,0 +1,25 @@
+//Buscar Produtos...
+GET http://127.0.0.1:5005/produtos
+
+###
+
+//BuscarProdutoPorId
+GET http://127.0.0.1:5005/produto/123
+Content-Type: application/json
+
+###
+
+//Adicionar Produtos...
+POST http://127.0.0.1:5005/produto
+Content-Type: application/json
+
+{
+    "id": 234,
+    "nome": "Produto-2",
+    "preco": 350,
+    "off": 17
+}
+
+###
+
+
